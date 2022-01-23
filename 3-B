@@ -1,0 +1,12 @@
+m = input().split()
+n = []
+for x in m:
+    if int(x)!= 0:
+        n.append(int(x))
+        m.append(int(input()))        
+    else:
+        pass
+        break
+        
+for i in range(len(n)):
+    print('Case {}: {}'.format(i+1, n[i]))
