@@ -1,0 +1,25 @@
+def keisan(x,y,z):
+    if z == '+':
+        print(int(x + y))
+    elif z == '-':
+        print(int(x - y))
+    elif z == '/':
+        print(int(x / y))
+    elif z == '*':
+        print(int(x * y))
+while True:
+    a, op , b = map(str, input().split())
+    a = int(a)
+    b = int(b)
+    if op == "?":
+        break
+    elif op == "+":
+        keisan(a,b,op)
+    elif op == "-":
+        keisan(a,b,op)
+    elif op == "/":
+        keisan(a,b,op)
+    elif op == "*":
+        keisan(a,b,op)
+    else:
+        pass
