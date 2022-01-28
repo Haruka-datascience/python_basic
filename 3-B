@@ -6,7 +6,6 @@ for x in m:
         m.append(int(input()))        
     else:
         pass
-        break
-        
+        break 
 for i in range(len(n)):
     print('Case {}: {}'.format(i+1, n[i]))
