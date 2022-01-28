@@ -1,5 +1,8 @@
 import math
+def menseki(x):
+    print(format(x * x * math.pi, '.5f'))
+def enshu(x):
+    print(format(2 * x * math.pi, '.5f'))
 r = float(input())
-m = format(r * r * math.pi, '.5f')
-e = format(2 * r * math.pi, '.5f')
-print(m, e)
+menseki(r)
+enshu(r)
