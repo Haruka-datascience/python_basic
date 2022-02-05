@@ -1,0 +1,10 @@
+def sei(x,y):
+    print(x//y)
+def ama(x,y):
+    print(x%y)
+def fudo(x,y):
+    print(format(x/y,'.5f'))
+a,b = map(int, input().split())
+sei(a,b)
+ama(a,b)
+fudo(a,b)
